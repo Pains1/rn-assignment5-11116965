@@ -120,13 +120,13 @@ const HomeScreen = () => {
     <Container>
       <Header>
         <GreetingContainer>
-          <ProfileImage source={require('../assets/profile-picture.jpg')} />
+          <ProfileImage source={require('../assets/google.png')} />
           <Greeting>Welcome back, Eric Atsu</Greeting>
         </GreetingContainer>
         <SearchIcon name="search-outline" size={24} />
       </Header>
 
-      <MastercardImage source={require('../assets/mastercard.png')} />
+      <MastercardImage source={require('../assets/images.jpeg')} />
 
       <TabsContainer>
         <Tab>
@@ -155,7 +155,7 @@ const HomeScreen = () => {
 
       <ScrollView showsVerticalScrollIndicator={false}>
         <TransactionItem>
-          <TransactionIcon source={require('../assets/money-transfer-icon.png')} />
+          <TransactionIcon source={require('../assets/google.png')} />
           <TransactionDetails>
             <TransactionTitle>Money Transfer</TransactionTitle>
             <TransactionSubtitle>Transaction</TransactionSubtitle>
@@ -164,7 +164,7 @@ const HomeScreen = () => {
         </TransactionItem>
 
         <TransactionItem>
-          <TransactionIcon source={require('../assets/grocery-icon.png')} />
+          <TransactionIcon source={require('../assets/google.png')} />
           <TransactionDetails>
             <TransactionTitle>Grocery Shopping</TransactionTitle>
             <TransactionSubtitle>Shopping</TransactionSubtitle>
@@ -173,7 +173,7 @@ const HomeScreen = () => {
         </TransactionItem>
 
         <TransactionItem>
-          <TransactionIcon source={require('../assets/apple-store-icon.png')} />
+          <TransactionIcon source={require('../assets/google.png')} />
           <TransactionDetails>
             <TransactionTitle>Apple Store</TransactionTitle>
             <TransactionSubtitle>Entertainment</TransactionSubtitle>
@@ -182,7 +182,7 @@ const HomeScreen = () => {
         </TransactionItem>
 
         <TransactionItem>
-          <TransactionIcon source={require('../assets/spotify-icon.png')} />
+          <TransactionIcon source={require('../assets/google.png')} />
           <TransactionDetails>
             <TransactionTitle>Spotify</TransactionTitle>
             <TransactionSubtitle>Music</TransactionSubtitle>
@@ -191,7 +191,7 @@ const HomeScreen = () => {
         </TransactionItem>
 
         <TransactionItem>
-          <TransactionIcon source={require('../assets/apple-store-icon.png')} />
+          <TransactionIcon source={require('../assets/google.png')} />
           <TransactionDetails>
             <TransactionTitle>Apple Store</TransactionTitle>
             <TransactionSubtitle>Entertainment</TransactionSubtitle>
